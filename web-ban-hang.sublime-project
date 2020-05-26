@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\\Project 2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "E:\\Project 1\\source_code_web_FlashShop\\angular-frontend"
+		},
+		{
+			"path": "D:\\Project 2\\tham khao\\SunRise"
+		},
+		{
+			"path": "D:\\Project 2\\tham khao\\nxthanh"
+		}
+	],
+	"syntax_override":
+	{
+		"\\.js$":
+		[
+			"Babel",
+			"JavaScript (Babel)"
+		]
+	}
+}
