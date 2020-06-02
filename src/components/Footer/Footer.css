@@ -11,6 +11,11 @@
   margin-right: 20px;
 }
 
+
+.item-end-container:hover{
+   background: #e0dcdc
+}
+
 .content_row span{
 margin-top: 5px;
 font-size: 13;
@@ -18,6 +23,7 @@ font-size: 13;
 }
 .end-footer{
   background: #343a40;
+  /*margin : 0px 0px !important;*/
 }
 /*==Footer==*/
 .end-footer{

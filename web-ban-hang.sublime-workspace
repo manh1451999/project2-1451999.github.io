@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"marginBottom"
+			],
+			[
+				"di",
+				"div\tJSX attribute"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"he",
+				"href\tJSX attribute"
+			],
+			[
+				"a",
+				"About"
+			],
+			[
+				"cla",
+				"className\tJSX attribute"
+			],
+			[
 				"st",
 				"style\tJSX attribute"
 			],
@@ -32,10 +60,6 @@
 				"Component\tclass"
 			],
 			[
-				"di",
-				"div"
-			],
-			[
 				"Com",
 				"Component\talias"
 			]
@@ -44,38 +68,37 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/Footer/Footer.js",
+			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 3054,
+				"buffer_size": 1454,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/App.js",
+			"file": "/D/Project 2/final/template/timezone/assets/js/slick.min.js",
 			"settings":
 			{
-				"buffer_size": 655,
-				"encoding": "UTF-8",
+				"buffer_size": 33293,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer/footer.component.html",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 2508,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Find References",
+				"scratch": true
 			}
 		},
 		{
-			"file": "src/components/Footer/Footer.css",
+			"file": "/D/Project 2/tham khao/SunRise/src/pages/Login/login.css",
 			"settings":
 			{
-				"buffer_size": 521,
-				"encoding": "UTF-8",
+				"buffer_size": 363,
 				"line_ending": "Windows"
 			}
 		}
@@ -116,37 +139,75 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Project 2",
 		"/D/Project 2/final/web-ban-hang",
+		"/D/Project 2/final/web-ban-hang/public",
 		"/D/Project 2/final/web-ban-hang/src",
 		"/D/Project 2/final/web-ban-hang/src/components",
-		"/D/Project 2/final/web-ban-hang/src/components/Footer",
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend",
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src",
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app",
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer"
+		"/D/Project 2/final/web-ban-hang/src/components/Header",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/About",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Contact",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Home",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login",
+		"/D/Project 2/tham khao/SunRise",
+		"/D/Project 2/tham khao/SunRise/public",
+		"/D/Project 2/tham khao/SunRise/src",
+		"/D/Project 2/tham khao/SunRise/src/pages",
+		"/D/Project 2/tham khao/SunRise/src/pages/Home",
+		"/D/Project 2/tham khao/SunRise/src/pages/Login",
+		"/D/Project 2/tham khao/SunRise/src/pages/Register"
 	],
 	"file_history":
 	[
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer/footer.component.css",
-		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/header/header.component.css",
+		"/D/Project 2/tham khao/SunRise/public/styles.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login/Login.js",
+		"/D/Project 2/final/web-ban-hang/public/index.html",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login/Login.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login/Signup.js",
+		"/D/Project 2/tham khao/SunRise/package.json",
+		"/D/Project 2/tham khao/SunRise/src/pages/Login/Login.js",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/login/login.component.html",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login/Signup.css",
+		"/E/Cong Nghe Web Va Dich Vu Truc Tuyen/bai tap tuan/tuần 7/EX2/validation.html",
+		"/D/Project 2/tham khao/SunRise/src/App.js",
+		"/D/Project 2/final/web-ban-hang/src/components/Header/TopMenu.js",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Home/Home.js",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Login/validation.js",
+		"/D/Project 2/final/web-ban-hang/src/components/Footer/Footer.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Footer/Footer.js",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Contact/Contact.js",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/contact/contact.component.html",
+		"/D/Project 2/final/web-ban-hang/src/App.js",
+		"/D/Project 2/tham khao/SunRise/src/pages/Login/login.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Contact/Contact.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/About/About.css",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/contact/contact.component.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Header/Header.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/About/About.js",
+		"/D/Project 2/final/web-ban-hang/web-ban-hang.sublime-project",
 		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/header/header.component.html",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/header/header.component.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Header/Slide.js",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/about-us/about-us.component.css",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/about-us/about-us.component.html",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Home/Home.css",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/slide/slide.component.html",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/slide/slide.component.css",
+		"/D/Project 2/final/web-ban-hang/src/components/Pages/Home.js",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer/footer.component.html",
+		"/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer/footer.component.css",
 		"/D/Project 2/final/web-ban-hang/src/components/TopMenu/Header.css",
 		"/D/Project 2/final/web-ban-hang/src/components/TopMenu/TopMenu.js",
 		"/D/Project 2/final/web-ban-hang/src/components/TopMenu/TopbarLogo.js",
-		"/D/Project 2/final/web-ban-hang/src/App.js",
 		"/D/Project 2/learn reatjs/todo-list/src/App.js",
 		"/D/Project 2/final/web-ban-hang/src/components/TopbarLogo/TopbarLogo.js",
 		"/D/Project 2/tham khao/nxthanh/project1/src/Components/User/CallPopup.js",
-		"/D/Project 2/final/web-ban-hang/public/index.html",
 		"/D/Project 2/final/web-ban-hang/src/index.js",
 		"/D/Project 2/codesanbox/test/package.json",
 		"/D/Project 2/final/web-ban-hang/package.json",
 		"/D/Project 2/final/web-ban-hang/src/App.css",
 		"/D/Project 2/tham khao/SunRise/src/components/TopMenu/TopMenu.js",
-		"/D/Project 2/tham khao/SunRise/src/App.js",
 		"/D/Project 2/final/web-ban-hang/src/components/TopMenu.js",
-		"/D/Project 2/final/web-ban-hang/web-ban-hang.sublime-project",
 		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
 		"/C/Users/Admin/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
 		"/E/Cong Nghe Web Va Dich Vu Truc Tuyen/bai tap lon/thue do/db mongo/categories.json",
@@ -158,7 +219,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -172,6 +233,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"port",
+			";\n",
+			"95",
+			"Login",
+			"Contact",
+			"padding-left: 15px;",
+			"background-ima",
+			"background",
+			"About",
+			"assets/",
+			"href",
+			"a>",
+			"<a",
+			"Home",
+			"TopMenu",
+			"className",
 			"assets/",
 			"(click)",
 			"paper"
@@ -192,24 +269,60 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/Footer/Footer.js",
+					"file": "src/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3054,
+						"buffer_size": 1454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								965,
+								965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Project 2/final/template/timezone/assets/js/slick.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
 							]
 						],
 						"settings":
@@ -224,39 +337,37 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/App.js",
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 655,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								531,
-								531
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
 								"indentSize": 4,
 								"tabSize": 4
-							},
-							"use_tab_stops": false
+							}
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -266,50 +377,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/E/Project 1/source_code_web_FlashShop/angular-frontend/src/app/footer/footer.component.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6,
-								6
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "src/components/Footer/Footer.css",
+					"file": "/D/Project 2/tham khao/SunRise/src/pages/Login/login.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 521,
+						"buffer_size": 363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								84
+								195,
+								168
 							]
 						],
 						"settings":
@@ -322,7 +403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -330,7 +411,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -371,7 +452,7 @@
 	"project": "web-ban-hang.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -409,7 +490,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 261.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

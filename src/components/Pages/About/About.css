@@ -4,23 +4,23 @@
 	padding-bottom: 70px;
 
 }
-.container{
+.about{
 	min-width: 85%
 }
-.container h1{
+.about h1{
 	color: #FE980F;
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
-.container h2{
+.about h2{
 	color:#000080;
 	margin-bottom: 20px;
 	margin-top: 40px;
 }
-.container h2 img{
+.about h2 img{
 	display: inline-block;
 	float: left;
 }
-.about p,li{
+.about p, .about li{
 	font-size: 20px;
 }

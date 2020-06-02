@@ -12,9 +12,9 @@ export default class Footer extends Component{
 			<div>
 			  <div id="end-container">
 			    <div className="row">
-			      <div className="col-sm-3">
+			      <div className="col-sm-3 item-end-container">
 			        <span className="icon">
-			          <img src="img/4.png" alt="Mua hàng siêu tiết kiệm" />
+			          <img src="/img/4.png" alt="Mua hàng siêu tiết kiệm" />
 			        </span>
 			        <div className="content_row">
 			          <h5 style={{ color: "green" }}>Mua hàng tiết kiệm </h5>
@@ -23,27 +23,27 @@ export default class Footer extends Component{
 			          </span>
 			        </div>
 			      </div>
-			      <div className="col-sm-3">
+			      <div className="col-sm-3 item-end-container">
 			        <span className="icon">
-			          <img src="img/5.png" alt="Chất lượng tuyệt đối 100%" />
+			          <img src="/img/5.png" alt="Chất lượng tuyệt đối 100%" />
 			        </span>
 			        <div className="content_row">
 			          <h5 style={{ color: "green" }}>Chất lượng tuyệt đối 100%</h5>
 			          <span>Cam kết sản phẩm chính hãng </span>
 			        </div>
 			      </div>
-			      <div className="col-sm-3">
+			      <div className="col-sm-3 item-end-container">
 			        <span className="icon">
-			          <img src="img/6.png" alt="Chất lượng tuyệt đối 100%" />
+			          <img src="/img/6.png" alt="Chất lượng tuyệt đối 100%" />
 			        </span>
 			        <div className="content_row">
 			          <h5 style={{ color: "green" }}>Khuyến mãi cực lớn</h5>
 			          <span>Được hưởng ưu đãi và các quà tặng hấp dẫn</span>
 			        </div>
 			      </div>
-			      <div className="col-sm-3">
+			      <div className="col-sm-3 item-end-container">
 			        <span className="icon">
-			          <img src="img/7.png" alt="Chất lượng tuyệt đối 100%" />
+			          <img src="/img/7.png" alt="Chất lượng tuyệt đối 100%" />
 			        </span>
 			        <div className="content_row">
 			          <h5 style={{ color: "green" }}>Thanh toán dễ dàng</h5>

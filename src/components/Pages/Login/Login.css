@@ -1,0 +1,26 @@
+.login{
+  box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+  opacity: 0.80;
+  background-color:  #ffffff;
+  margin-top: 50px;
+  margin-bottom: 5%;
+
+}
+
+.signup{
+  box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+  opacity: 0.85;
+  background-color:  #ffffff;
+  margin-top: 50px;
+  margin-bottom: 5%;
+
+}
+
+.bglogin{
+  background-image: url('/img/bglogin.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+
+
+}

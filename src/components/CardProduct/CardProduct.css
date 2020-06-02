@@ -1,0 +1,69 @@
+.card-product{
+	text-align:center;
+}
+.product-img{
+  height: 220px;
+  width: 100%;
+ /* position: relative;*/
+
+}
+
+.product-img img{
+  height: auto !important;
+  max-height: 100%;
+  width: auto !important;
+  max-width: 100% ;
+/*  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;*/
+ 
+	transition-duration: 1.5s;
+  /* Safari & Google Chrome */
+  -webkit-transition-duration: 1.5s; 
+  /* Mozilla Firefox */
+  -moz-transition-duration: 1.5s; 
+  /* Opera */
+  -o-transition-duration: 1.5s;
+  /* IE 9 */
+  -ms-transition-duration: 1.5s;
+}
+
+.product-img img:hover {
+	 transform: scale(0.8);
+    /* Safari & Google Chrome */
+    -webkit-transform: scale(0.8);
+    /* Mozilla Firefox */
+    -moz-transform: scale(0.8); 
+    /* Opera */
+    -o-transform: scale(0.8);
+    /* IE 9 */
+    -ms-transform: scale(0.8);
+}
+
+
+.product-name{
+  color: black;
+
+}
+
+.product-name:hover{
+  color: black;
+  color: orange;
+  transition-property: color;
+  transition-duration: 1s;
+
+}
+
+.product-price{
+    display: inline-block;
+    background-color: #ff9300;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 20px;
+    line-height: 33px;
+    border-radius: 100px;
+}

@@ -11,7 +11,7 @@ export default class TopbarLogo extends Component{
 				    <div className="col-sm-4 mr-auto"><a style={{color: 'black'}} id="logo" ><h2 style={{lineHeight: '60px', paddingLeft: '40px', fontFamily: 'Monotype Corsiva'}}>Flash Shop</h2></a></div>
 				    <div className="col-sm-6 col-md-4 ml-auto">
 				      <div>
-				        <a onClick="" id="gocart" style={{marginLeft: '20px', display: 'inline-block'}}><span><img style={{width: '25px', marginLeft: '10px'}} src="img/giohang.jpg" /></span>
+				        <a onClick="" id="gocart" style={{marginLeft: '20px', display: 'inline-block'}}><span><img style={{width: '25px', marginLeft: '10px'}} src="/img/giohang.jpg" /></span>
 				          <span className="badge badge-pill badge-warning" style={{width: '25px', marginLeft: '2px'}}>1</span>
 				        </a>
 				        <a href="/login" style={{marginLeft: '40px', display: 'inline-block'}}>

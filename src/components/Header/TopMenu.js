@@ -1,6 +1,6 @@
 
 import React, {Component } from 'react';
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import {
   Collapse,
@@ -72,6 +72,12 @@ class TopMenu extends Component{
 				        </div>
 			      </li>
 
+			      <li class="nav-item">
+			        	<Link class="nav-link" to="/product/1">
+			        	Chi tiết
+			        	</Link>
+			      </li>
+
 
 			      <li class="nav-item">
 			        	<Link class="nav-link" to="/about">
@@ -82,6 +88,12 @@ class TopMenu extends Component{
 			       <li class="nav-item">
 			        	<Link class="nav-link" to="/contact">
 			        	 Liên hệ
+			        	</Link>
+			      </li>
+
+			      <li class="nav-item">
+			        	<Link class="nav-link" to="/login">
+			        	 Đăng nhập
 			        	</Link>
 			      </li>
 			    </ul>
