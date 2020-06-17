@@ -15,13 +15,12 @@ export default class CarouselTemplate extends Component {
 		this.state={
 			data:[]
 		}
-		console.log("CarouselTemplate constructor")
 
 
 	}
 
 	 componentDidMount(){
-		 axios.get("https://29po7.sse.codesandbox.io/products").then(res => {
+		 axios.get("http://localhost:1405/product").then(res => {
 		      this.setState({
 		        data: res.data
 		      });
@@ -40,7 +39,6 @@ export default class CarouselTemplate extends Component {
 
 
 	render(){
-		console.log("CarouselTemplate render")
 
 		// const { data } = this.props;
 		const { data } = this.state;

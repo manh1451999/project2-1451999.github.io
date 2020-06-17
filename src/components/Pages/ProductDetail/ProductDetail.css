@@ -181,3 +181,6 @@
             transform: scale(1); } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.carousel .slide{ background-color: #fafafa !important; }

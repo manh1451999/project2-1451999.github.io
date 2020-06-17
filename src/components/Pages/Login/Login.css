@@ -24,3 +24,11 @@
 
 
 }
+
+.login-err{
+  font-size: small !important;
+   padding-left: 15px !important;
+    margin-bottom: 5px !important;
+    opacity: 1;
+
+}

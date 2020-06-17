@@ -13,33 +13,50 @@ import About from './components/Pages/About/About'
 import Contact from './components/Pages/Contact/Contact'
 import Login from './components/Pages/Login/Login'
 import Signup from './components/Pages/Login/Signup'
+import SignupTest from './components/Pages/Login/SignupTest'
 import ProductDetail from './components/Pages/ProductDetail/ProductDetail'
+import Cart from './components/Pages/Cart/Cart'
+import Admin from './components/Pages/Admin/Admin';
+import {ShareDataProvider, ShareDataConsumer, ShareContext} from './components/Contexts/ShareData'
 
 function App() {
   return (
+  	<ShareDataProvider>
   	<Router>
 
-	 		  <TopbarLogo />
+	 		  <TopbarLogo />   
+	 		  {/*logo dang bi tran ra ngoai*/}
 		      <TopMenu />
 
 		     
-		         <Route exact path="/">
-		            <Slide />
-		          </Route>
+	          <Route exact path="/">
+	            <Slide />
+	          </Route>
 		    
 
 	          <Route exact path="/login">
 	            <Login />
 	          </Route>
 
+	      {/*     <Route exact path="/sign-up">
+	            <SignupTest />
+	          </Route>*/}
+
 	          <Route exact path="/sign-up">
 	            <Signup />
+	          </Route>
+
+	          <Route  path="/admin">
+	            <Admin />
 	          </Route>
 
 
 
 		      <div className="container" >
 			        <Switch>
+
+				          <Route path="/cart/:userId" exact component={Cart} />
+
 
 				          <Route exact path="/about">
 					            <About />
@@ -60,6 +77,10 @@ function App() {
 				            <Home />
 				          </Route>
 
+		
+
+
+
 				        
 
 				          
@@ -67,8 +88,10 @@ function App() {
 		      </div>
 
 
+	 		  {/*Footer dang bi tran ra ngoai*/}
 		      <Footer />
     </Router>
+    </ShareDataProvider>
   );
 }
 

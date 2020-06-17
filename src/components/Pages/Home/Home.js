@@ -22,10 +22,11 @@ export default class Home extends Component {
 	}
 
 	 componentDidMount(){
-		 axios.get("https://29po7.sse.codesandbox.io/products").then(res => {
+		 axios.get("/product").then(res => {
 		      this.setState({
 		        products: res.data
 		      });
+
 	    });
 	}
 

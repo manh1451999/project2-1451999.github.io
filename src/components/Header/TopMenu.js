@@ -1,6 +1,8 @@
-
+import cookie from 'react-cookies'
 import React, {Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import {ShareDataConsumer} from './../Contexts/ShareData';
+
 
 import {
   Collapse,
@@ -55,10 +57,6 @@ class TopMenu extends Component{
 			        	</Link>
 			      </li>
 
-			       <li class="nav-item">
-			        <a class="nav-link" href="#">Link</a>
-			      </li>
-
 			      
 
 			       <li class="nav-item dropdown">
@@ -70,12 +68,6 @@ class TopMenu extends Component{
 				          <Link class="dropdown-item" to="#">Another action</Link>
 				          <Link class="dropdown-item" to="#">Something else here</Link>
 				        </div>
-			      </li>
-
-			      <li class="nav-item">
-			        	<Link class="nav-link" to="/product/1">
-			        	Chi tiết
-			        	</Link>
 			      </li>
 
 
@@ -91,9 +83,23 @@ class TopMenu extends Component{
 			        	</Link>
 			      </li>
 
+			      <ShareDataConsumer>
+
+			      {({isLogined})=>{
+
+					if(!isLogined)    return  <li class="nav-item">
+						        	<Link class="nav-link" to="/login">
+						        	 Đăng nhập
+						        	</Link>
+					        	 </li>
+			 		 }
+			 		}
+
+			      </ShareDataConsumer>
+
 			      <li class="nav-item">
-			        	<Link class="nav-link" to="/login">
-			        	 Đăng nhập
+			        	<Link class="nav-link" to="/admin">
+			        	 Admin
 			        	</Link>
 			      </li>
 			    </ul>
