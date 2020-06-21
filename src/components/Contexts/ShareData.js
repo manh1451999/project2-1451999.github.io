@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import cookie from 'react-cookies';
 import axios from 'axios'
+import { Redirect } from "react-router-dom";
+
 
 
 export const ShareContext= React.createContext();
@@ -18,7 +20,7 @@ export class ShareDataProvider extends Component {
 
 		this.updateCart= this.updateCart.bind(this);
 		this.updateStatus= this.updateStatus.bind(this);
-		// setInterval(()=>{this.setState({isLogined: !this.state.isLogined}); console.log(this.state.isLogined)}, 1000)
+		this.logout= this.logout.bind(this);
 	}
 
 	componentDidMount(){
@@ -29,7 +31,7 @@ export class ShareDataProvider extends Component {
 	updateCart(){
 		  axios.get("/cart").then(res => {
 		      this.setState({
-		        cartItems: res.data
+		        cartItems: res.data.list
 		      });
 
 		      let amount=0
@@ -54,7 +56,23 @@ export class ShareDataProvider extends Component {
 				isLogined: false
 			})
 		}
-		}
+	}
+
+	logout(){
+
+		cookie.remove('firstName');
+		cookie.remove('isAdmin');
+		this.updateStatus()
+		axios.get('/auth/logout')
+		.then((res)=>{this.updateStatus()})
+		.catch(err=>console.log(err))
+
+		 window.location.href="/"
+
+		return <Redirect to="/" />
+
+
+	}
 
 
 	render() {
@@ -66,7 +84,8 @@ export class ShareDataProvider extends Component {
 				firstName: this.state.firstName,
 				cartItems:this.state.cartItems,
 				updateStatus: this.updateStatus,
-				updateCart:this.updateCart
+				updateCart:this.updateCart,
+				logout: this.logout
 
 			}}
 			>

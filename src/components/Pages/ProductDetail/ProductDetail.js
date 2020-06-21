@@ -149,8 +149,10 @@ export default props => ( <ShareDataConsumer>
 
 					<div className="row collapse show" id="desciption" data-parent="#accordion">
 						<div>
-							{product?.description}
-							 <div dangerouslySetInnerHTML={{ __html: '<h1>Hiển thị nội dung cho code html</h1>' }} />
+							<br/>
+							<br/>
+							<br/>
+							<div dangerouslySetInnerHTML={{ __html: product?.description }} />
 						</div>
 					</div>
 

@@ -9,15 +9,15 @@ import axios from 'axios';
 
 export default class TopbarLogo extends Component{
 
-	logout(updateStatus){
+	// logout(updateStatus){
 
-		cookie.remove('firstName');
-		updateStatus()
-		axios.get('/auth/logout')
-		.then(res=>{})
-		.catch(err=>console.log(err))
+	// 	cookie.remove('firstName');
+	// 	updateStatus()
+	// 	axios.get('/auth/logout')
+	// 	.then(res=>{updateStatus()})
+	// 	.catch(err=>console.log(err))
 
-	}
+	// }
 
 	render(){
 
@@ -29,7 +29,7 @@ export default class TopbarLogo extends Component{
 				    <div className="col-sm-4 mr-auto"><a style={{color: 'black'}} id="logo" ><h2 style={{lineHeight: '60px', paddingLeft: '40px', fontFamily: 'Monotype Corsiva'}}>Flash Shop</h2></a></div>
 				    <div className="col-sm-6 col-md-4 ml-auto">
 				      <ShareDataConsumer>
-				      {({isLogined, cartAmount, firstName, updateStatus})=>{
+				      {({isLogined, cartAmount, firstName, updateStatus, logout})=>{
 				       return <div>
 
 				      
@@ -53,15 +53,21 @@ export default class TopbarLogo extends Component{
 
 				        <div className="dropdown" style={{display: 'inline'}}>
 				          <a className="dropdown-toggle" data-toggle="dropdown" style={{marginLeft: '40px', display: 'inline-block', cursor: 'pointer', color: '#007bff'}}>
-				            chào Mạnh
+				            chào {firstName}
 				          </a>    
 				          <div className="dropdown-menu" style={{background: '#ededed'}}>
-				            <a className="dropdown-item" routerlink="manage-user-for-customer/{{userId}}/edit" style={{color: '#007bff'}}>Thông tin tài khoản</a>
-				            <a className="dropdown-item" routerlink="view-list-cart" style={{color: '#007bff'}}>Đơn hàng</a>
+				           <Link to="/user/profile" style={{'textDecoration':'none'}}>
+				             <a className="dropdown-item"  style={{color: '#007bff'}}>Thông tin tài khoản</a>
+				           </Link>
+
+				           <Link to="/user/order" style={{'textDecoration':'none'}}>
+				             <a className="dropdown-item"  style={{color: '#007bff'}}>Đơn hàng</a>
+				           </Link>
+
 				          </div>
 				        </div>
 
-				         <a onClick={()=>this.logout(updateStatus)} style={{marginLeft: '40px', 'cursor':'pointer', display: 'inline-block'}}>Đăng xuất</a>
+				         <a onClick={()=> {logout();}} style={{marginLeft: '40px', 'cursor':'pointer', display: 'inline-block'}}><i class="fas fa-sign-out-alt"></i>Đăng xuất</a>
 
 				         </React.Fragment>
 				    	}

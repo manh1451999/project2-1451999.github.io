@@ -16,11 +16,13 @@ export default class CardProductMini extends Component {
 			<div className="card-product" style={{'marginTop':'30px'}}>
     			<div className="card" >
 
-    			 <div class="product-img" >
-                   <a href={`product/${product._id}`}>
-                   		<img  src={"http://localhost:1405/"+product.imgUrl} style={{'display':'inline'}}/>
-                   </a>
-                 </div>
+                 <Link class="nav-link product-name" to={`product/${product._id}`}>
+	    			 <div class="product-img" >
+	                   <a>
+	                   		<img  src={"http://localhost:1405/"+product.imgUrl} style={{'display':'inline'}}/>
+	                   </a>
+	                 </div>
+                </Link>
 			  
 				  <div className="card-body">
 				    <h4 className="card-title " >

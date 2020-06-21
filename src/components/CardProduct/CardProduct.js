@@ -17,12 +17,13 @@ export default class CardProduct extends Component {
 			<div className="card-product col-md-4 col-sm-6" style={{'marginTop':'30px'}}>
     			<div className="card" >
 
+    			<Link class="nav-link product-name" to={`product/${product._id}`}>
     			 <div class="product-img">
-                   <a href={`product/${product._id}`}>
-                   		<img  src={"http://localhost:1405/"+product.imgUrl} />
-                   </a>
+	                   <a>
+	                   		<img  src={"http://localhost:1405/"+product.imgUrl} />
+	                   </a>
                  </div>
-			  
+			  	</Link>
 				  <div className="card-body">
 				    <h4 className="card-title " >
 				    	<Link class="nav-link product-name" to={`product/${product._id}`}>

@@ -2,6 +2,7 @@ import cookie from 'react-cookies'
 import React, {Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import {ShareDataConsumer} from './../Contexts/ShareData';
+import axios from 'axios';
 
 
 import {
@@ -32,8 +33,20 @@ import  './Header.css'
 class TopMenu extends Component{
 	constructor(props){
 		super(props);
+		this.state={
+			categories:[]
+		}
 
+	}
 
+	componentDidMount(){
+		axios.get('/category')
+			 .then((res)=>{
+			 	this.setState({
+			 		categories: res.data
+			 	})
+			 })
+			 .catch(err=> console.log(err))
 	}
 
 
@@ -61,12 +74,13 @@ class TopMenu extends Component{
 
 			       <li class="nav-item dropdown">
 				        <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Dropdown link
+				         	Sản phẩm
 				        </Link>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <Link class="dropdown-item" to="#">Action</Link>
-				          <Link class="dropdown-item" to="#">Another action</Link>
-				          <Link class="dropdown-item" to="#">Something else here</Link>
+				        {this.state.categories.map((category)=>{
+				        	return <Link className="dropdown-item"  to={`/category/${category.name}`}>{category.name}</Link>
+				        })}
+
 				        </div>
 			      </li>
 
